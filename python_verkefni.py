@@ -1,3 +1,11 @@
 file = open("text.txt", "w")
 file.write("Hallo svaka gaman \n")
 file.write("va meira gaman i linu 2")
+file.close()
+
+nafn = str(input("Sláðu inn nafn: "))
+kennitala = input("Sláðu inn kennitölu: ")
+print("Nafn þitt er:",nafn)
+print("Kennitala þín er:",kennitala)
+print("Takk fyrir")
+print("------------------------------")
